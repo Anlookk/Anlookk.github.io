@@ -1,0 +1,163 @@
+/* 中等屏幕（平板，768px以下） */
+@media (max-width: 768px) {
+  /* 导航栏 */
+  .desktop-menu {
+    display: none;
+  }
+  
+  .mobile-menu-btn {
+    display: block;
+  }
+  
+  .mobile-menu.active {
+    display: flex;
+  }
+  
+  /* 头部横幅 */
+  .hero h1 {
+    font-size: 32px;
+  }
+  
+  .hero {
+    padding: 120px 0 80px;
+  }
+  
+  /* 分类区域 */
+  .categories h2 {
+    font-size: 26px;
+  }
+  
+  /* 文章列表 */
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* 订阅区域 */
+  .subscribe h2 {
+    font-size: 26px;
+  }
+  
+  .subscribe-form input {
+    width: 100%;
+  }
+  
+  /* 关于页面 */
+  .about-header h1 {
+    font-size: 30px;
+  }
+  
+  .timeline-date {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .timeline {
+    padding-left: 15px;
+  }
+  
+  /* 文章详情页 */
+  .post-header h1 {
+    font-size: 24px;
+  }
+  
+  .post-meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .post-navigation {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .prev-post, .next-post {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* 小屏幕（手机，576px以下） */
+@media (max-width: 576px) {
+  /* 通用样式 */
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  /* 导航栏 */
+  .logo {
+    font-size: 20px;
+  }
+  
+  /* 头部横幅 */
+  .hero h1 {
+    font-size: 26px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  /* 分类卡片 */
+  .category-card {
+    padding: 30px 20px;
+  }
+  
+  .category-card i {
+    font-size: 30px;
+  }
+  
+  /* 文章卡片 */
+  .article-img {
+    height: 160px;
+  }
+  
+  .article-content {
+    padding: 20px;
+  }
+  
+  /* 联系区域 */
+  .contact-item {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  /* 页脚 */
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: center;
+  }
+  
+  /* 关于页面 */
+  .avatar {
+    width: 140px;
+    height: 140px;
+  }
+  
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* 文章详情页 */
+  .post-content h2 {
+    font-size: 20px;
+  }
+  
+  .post-content h3 {
+    font-size: 18px;
+  }
+}
